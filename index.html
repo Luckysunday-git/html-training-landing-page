@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="digital hub.jpg" />
     <title>Paint Training Landing Page</title>
     <style>
       body {
@@ -128,6 +129,31 @@
         margin-bottom: 10px;
       }
 
+      .ready a {
+        display: inline-block;
+        background-color: #27ae60;
+        color: white;
+        padding: 12px 24px;
+        font-size: 18px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+
+      .ready a:active {
+        background-color: #63f09e;
+      }
+
+      small {
+        /* font-style: italic; */
+        color: gray;
+      }
+
+      .more-info {
+        margin-top: 8px;
+      }
+
       /* Footer CTA */
       footer {
         background-color: #27ae60;
@@ -180,9 +206,12 @@
         <p>
           Master how to make different paint types in a few days with our
           beginner-friendly training program. Gain practical skills and join a
-          supportive learning community.
+          supportive learning community for free.
         </p>
         <a href="join-whatsapp.html" class="cta">Join Now</a>
+        <div class="more-info">
+          <small>Join others in the WhatsApp group for more info</small>
+        </div>
       </div>
       <div class="hero-image">
         <img src="paintHero.jpg" alt="Paint Training" />
@@ -210,10 +239,17 @@
         <div class="feature">
           <h4>Expert Support</h4>
           <p>
-            Get guidance from experienced trainers ready to help you succeed.
+            Get guidance from experienced trainers and producers ready to help
+            you succeed.
           </p>
         </div>
+
+        <div class="ready">
+          <h3>Ready to Start Learning?</h3>
+          <a href="join-whatsapp.html">Join Now</a>
+        </div>
       </div>
+      <small>Join others in the WhatsApp group for more info</small>
     </section>
 
     <!-- Course Features -->
